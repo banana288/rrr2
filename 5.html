@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bananichiki - Отзывы</title>
+    <link rel="stylesheet" href="5.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+                <li><a href="2.html">Услуги</a></li>
+                <li><a href="3.html">О нас</a></li>
+                <li><a href="4.html">Контакты</a></li>
+                <li><a href="5.html">Отзывы</a></li>
+                <li><a href="6.html">Запись</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="reviews">
+            <h1>Отзывы</h1>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-image">
+                        <img src="pic/5.jpg" alt="Отзыв 1">
+                    </div>
+                    <div class="review-text">
+                        <p>"Отличная клиника!  Все сделали быстро и безболезненно. Ребенок доволен. Рекомендую!"</p>
+                        <p class="author">-  Алина Иванова </p>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-image">
+                        <img src="pic/7" alt="Отзыв 2">
+                    </div>
+                    <div class="review-text">
+                        <p>"Очень довольна результатом.  Врачи внимательные и профессиональные."</p>
+                        <p class="author">-  Елена Петрова</p>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-image">
+                        <img src="pic/6.jpg" alt="Отзыв 3">
+                    </div>
+                    <div class="review-text">
+                        <p>"Спасибо большое за красивую улыбку!  Всегда мечтала о такой."</p>
+                        <p class="author">-  Анастасия Сидорова</p>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-image">
+                        <img src="pic/8.jpg" alt="Отзыв 4">
+                    </div>
+                    <div class="review-text">
+                        <p>"Отличное обслуживание, приятная атмосфера.  Буду рекомендовать друзьям."</p>
+                        <p class="author">- Виктория Кузнецова</p>
+                    </div>
+                </div>
+
+            </div>
+
+        <h1>Оставить отзыв</h1>
+   
+    <main>
+        <section class="review-form">
+            <form id="reviewForm">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reviewText">Ваш отзыв:</label>
+                    <textarea id="reviewText" name="reviewText" rows="5" required></textarea>
+                </div>
+                  <div class="form-group">
+                <label for="email">Email для обратной связи:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+                <div class="form-group">
+                    <label for="photo">Фото:</label>
+                    <input type="file" id="photo" name="photo" accept="image/*">
+                </div>
+
+                <button type="submit">Отправить отзыв</button>
+            </form>
+
+            <div class="popup" id="popup">
+                <p>Отзыв отправлен, спасибо!</p>
+            </div>
+            
+        </section>
+    </main>
+        </section>
+    </main>
+
+    <footer>
+         <p> Bananchiki12@mail.ru</p>
+         <p> +7 (896) 345 72-19 </p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
